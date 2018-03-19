@@ -35,7 +35,7 @@ public class TwitterController {
         return twitsByHashTagRepository.findOne(id);
     }
 
-    @PostMapping(value = "/{hashTag}/{pageSize}")
+    @GetMapping(value = "/{hashTag}/{pageSize}")
     public List<Tweets> getTweetsByHashTag(@PathVariable final String hashTag,
                                            @PathVariable final int pageSize) {
         List<Tweets> tweetsList = new ArrayList<>();
