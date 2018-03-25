@@ -1,6 +1,6 @@
-package com.tiwitter.demo.controller;
+package com.tiwitter.demo.controller.twitterendpoint;
 
-import com.tiwitter.demo.controller.entity.Tweets;
+import com.tiwitter.demo.controller.twitterendpoint.entity.Tweets;
 import com.tiwitter.demo.repository.TwitsByHashTagRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

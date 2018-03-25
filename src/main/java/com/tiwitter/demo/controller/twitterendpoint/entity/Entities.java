@@ -1,4 +1,4 @@
-package com.tiwitter.demo.controller.entity;
+package com.tiwitter.demo.controller.twitterendpoint.entity;
 
 import org.springframework.social.twitter.api.*;
 

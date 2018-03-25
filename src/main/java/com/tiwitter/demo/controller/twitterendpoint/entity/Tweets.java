@@ -1,8 +1,7 @@
-package com.tiwitter.demo.controller.entity;
+package com.tiwitter.demo.controller.twitterendpoint.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.mongodb.core.mapping.Field;
 import org.springframework.social.twitter.api.*;
 
 import java.util.Date;
